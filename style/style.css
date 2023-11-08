@@ -387,13 +387,26 @@ nav {
   color: white;
   cursor: pointer;
 }
-.pertanyaan .text-quest {
+.pertanyaan .text-quest-1,
+.pertanyaan .text-quest-2,
+.pertanyaan .text-quest-3,
+.pertanyaan .text-quest-4,
+.pertanyaan .text-quest-5,
+.pertanyaan .text-quest-6 {
   background-color: #2a3d38;
   padding: 1rem;
-  margin-top: 1rem;
   color: white;
   text-align: justify;
   display: none;
+  transition: 0.3s;
+}
+.pertanyaan .jawab-1,
+.pertanyaan .jawab-2,
+.pertanyaan .jawab-3,
+.pertanyaan .jawab-4,
+.pertanyaan .jawab-5,
+.pertanyaan .jawab-6 {
+  display: block;
 }
 
 /* siswa */
